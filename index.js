@@ -21,7 +21,7 @@ addForm.addEventListener("submit", event => {
 });
 
 tasks.addEventListener("click", event => {
-    if (event.target.classList.containbrs("delete")) {
+    if (event.target.classList.contains("delete")) {
         event.target.parentElement.remove();
         UpdateMessage();
     }
